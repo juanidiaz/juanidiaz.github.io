@@ -72,7 +72,7 @@ p.bio{
 	content: "";
     clear: both;
 	display: table;
-	line-height: 250%;
+	line-height: 100%;
 	margin-bottom: 20px;
 	padding: 10px;
 }
