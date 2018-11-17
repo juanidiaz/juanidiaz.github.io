@@ -1,57 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 
 <head>
-    <title>Juan's Site</title>
-    <!-- Linking CSS -->
+    <meta charset="UTF-8">
+    <title>Juan I Diaz</title>
+
+    <!-- Linking my own CSS -->
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+    <!-- Link Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <!-- Link Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-    <header>
-        <div class="topMenu">
-            <div class="nameTitle">
-                <h1>Juan I Diaz</h1>
-            </div>
+    <div class="container">
 
-            <div id="links">
-                <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="index_mx.html"><img src="assets/images/mx.png" title="Ver en español"></a></li>
-                </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+            <!-- Our brand / logo -->
+            <a class="navbar-brand" href="https://juanidiaz.github.io/">Juan I Diaz - GitHub site</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+      
+              <!-- Collapsible button -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ml-auto">
+      
+                <!-- The links of our navbar -->
+                <li class="nav-item active">
+                  <a class="nav-link" href="https://juanidiaz.github.io/">Home <span class="sr-only">(current)</span></a>
+                </li>
+      
+                <li class="nav-item dropdown">
+      
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Homework projects
+                  </a>
+      
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="https://juanidiaz.github.io/Basic-Portfolio/">1: That Portfolio Though</a>
+                    <a class="dropdown-item" href="#">2: Responsiveness Assignment</a>
+                  </div>
+      
+                </li>
+              </ul>
             </div>
+          </nav>
+      
+        <div class="jumbotron">
+            <h1 class="display-4">Welcome to My GitHub site!</h1>
+            <p class="lead">This site is used to post my work during my Coding BootCamp with the University of Toronto.</p>
+            <hr class="my-4">
+            <p>There is nothing special about these files. You wont find the answer to existencial questions like <i>Why
+                    are we here?</i> or <i>Why aren't blueberries blue?</i> or even <i>Why do you feet smell and your
+                    nose runs?</i>. Instead you will only find boring, but very rewarding homework.</p>
+            <a class="btn btn-primary btn-sm" href="https://bootcamp.learn.utoronto.ca/coding/" target="_blank" role="button">Learn
+                more about the BootCamp @ UofT</a>
         </div>
-    </header>
 
-    <div class="mainBody">
-        <h2>About me</h2>
-        <hr>
-
-        <img id="bio-image" src="./assets/images/Nacho02.jpg" alt="Head Shot">
-        <p class="bio">Lorem ipsum dolor sit amet, et aliquam ceteros nominavi mea. Graecis ceteros denique sed ei,
-            virtute mentitum vim eu. In qui mollis concludaturque, te pri ullum blandit urbanitas. Ne amet maluisset
-            usu.</p>
-        <p class="bio">Pro cu aliquip vituperatoribus. Dicit nemore consulatu sed ne. Nostro utamur ea nec, option
-            labores repudiare eam eu. Harum labores eleifend quo ad, ne sed unum tollit detracto.</p>
-        <p class="bio">Verterem electram definitiones ex est. Timeam fuisset phaedrum ad vix, in his consequat
-            rationibus sadipscing, vis et graece appareat posidonium. Dolor nullam splendide pri no. Unum putent mel
-            no, ei sumo convenire adolescens has, sed tota sonet utamur ex. Et laboramus maiestatis est, eu sea quando
-            impetus platonem, vix iriure quaerendum eu.</p>
-        <p class="bio">Officiis dignissim an sit, ius omnesque vituperatoribus ea. Nusquam denique pertinacia pro in,
-            ubique mentitum vix no. Usu ne mutat nominati tractatos, ea alterum laboramus disputationi qui. No quodsi
-            appetere adversarium usu. Dolore propriae perpetua nec et, putent corpora aliquando ad sea, duo prompta
-            disputando philosophia id.</p>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">1: That Portfolio Though</h5>
+                  <p class="card-text">A very simple -and from the ground up- bio site. <i>Projects open in a new tab.</i></p>
+                  <a href="#" class="btn btn-primary">Open Project</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">2: Responsiveness Assignment</h5>
+                  <p class="card-text">Work in progress...</p>
+                  <a href="#" class="btn btn-primary">Open Project</a>
+                </div>
+              </div>
+            </div>
+          </div>
     </div>
 
-    <div class="footer">
-        <div class="footerLine"></div>
-        <p>Copyright © 2008 <strong>JDI</strong>. All Rights Reserved.<br>
-            For more info check <a href="http://www.idiaz.ca" style="color: white;" target="_none">www.idiaz.ca</a> or
-            reach <a href="mailto:jdi@idiaz.ca" style="color: white;">jdi@idiaz.ca.</a></p>
-    </div>
 </body>
 
 </html>
