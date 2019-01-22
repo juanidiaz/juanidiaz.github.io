@@ -52,9 +52,10 @@ $(document).ready(function () {
 
         function newProject(item) {
             var colDiv = $('<div>').addClass('col-sm-6');
-            var cardDiv = $('<div>').addClass('card').appendTo(colDiv);
+            var cardDiv = $('<div>').addClass('card card-accent-success').appendTo(colDiv);
+            var cardHeader = $('<div>').addClass('card-header border-dark').html('<h5>' + item.title + '</h5>').appendTo(cardDiv);
             var cardBody = $('<div>').addClass('card-body').appendTo(cardDiv);
-            var cardH5 = $('<h5>').addClass('card-title').text(item.title).appendTo(cardBody);
+            // var cardH5 = $('<h5>').addClass('card-title').text(item.title).appendTo(cardBody);
 
             if (item.status === 'done') {
                 var cardP = $('<p>').addClass('card-text').text(item.text).appendTo(cardBody);
