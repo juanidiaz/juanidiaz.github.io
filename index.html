@@ -9,7 +9,8 @@
   <link rel="icon" href="./static/idiaz_yellow-favicon.png">
 
   <!-- Link Bootstrap CSS -->
-  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css' integrity='sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO' crossorigin='anonymous'>
+  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css' integrity='sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO'
+    crossorigin='anonymous'>
   <!-- Link Bootstrap JS, Popper.js, and jQuery -->
   <script src='https://code.jquery.com/jquery-3.3.1.min.js' integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8='
     crossorigin='anonymous'></script>
@@ -45,7 +46,7 @@
             <li class='nav-item active'>
               <a class='nav-link' href='https://juanidiaz.github.io/'>Home <span class='sr-only'>(current)</span></a>
             </li>
-<!-- 
+            <!-- 
             <li class='nav-item active'>
               <a class='nav-link' href=''>Bio<span class='sr-only'></span></a>
             </li>
@@ -76,12 +77,79 @@
         more about the <b>BootCamp @ UofT</b></a>
     </section>
 
+    <div class="accordion" id="accordionExample">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false"
+              aria-controls="collapseOne">
+              HOME WORK
+            </button>
+          </h2>
+        </div>
+
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body">
+
+            <section class='cards'>
+
+              <!-- CARDS ARE CREATED HERE -->
+
+            </section>
+
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+              aria-expanded="false" aria-controls="collapseTwo">
+              PROJECTS
+            </button>
+          </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+
+            <section class='projects'>
+
+              <!--  -->
+
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="card card-accent-success">
+                    <div class="card-header border-dark">
+                      <h5>1: FLIP.IMG - Superhero image matching game</h5>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">Our web version of the popular memory card game where the objective is to collect the most pairs of cards.</p><a href="https://juanidiaz.github.io/project1"
+                        target="_blank" class="btn btn-primary mr-2">Open Project</a><a href="https://github.com/juanidiaz/project1"
+                        target="_blank" class="btn btn-outline-info">Open Github site</a>
+                      <div style="text-align: right;">
+                        <p><small>* Project open in a new tab.</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--  -->
+            </section>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!--    
     <section class='cards'>
 
-      <!-- CARDS ARE CREATED HERE -->
+       CARDS ARE CREATED HERE 
 
     </section>
-
+-->
   </div>
 
   <!-- Project script -->
