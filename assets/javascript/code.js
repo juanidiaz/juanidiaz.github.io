@@ -16,11 +16,7 @@ var project4 = new projectX('4: jQuery Assignment', 'This project is an RPG game
 var project5 = new projectX('5: JavaScript Assignment 2', 'Trivia game using JavaScript for the logic and jQuery to manipulate HTML.', 'TriviaGame', 'done');
 var project6 = new projectX('6: GifTastic', 'Aynamic web page that populates gifs of your choice using the GIPHY API. This project uses API calls to GIPHY and modifies the DOM using JavaScript and jQuery', 'giphy', 'done');
 var project7 = new projectX('7: Rock Paper Scissors', 'On-line version of the popular rock-paper-scissors game. In this version you will be able to just "watch" other people play or, if a spot is available, you can play the game against someone else.', 'RPS-Multiplayer', 'done');
-
-var project1a = new projectX('Project 1', 'FLIP.IMG - Superhero image matching game. Our web version of the popular memory card game where the objective is to collect the most pairs of cards.', 'project1', 'done');
-
-
-var project8 = new projectX('8: LIRI Bot', '', '', 'noInfo');
+var project8 = new projectX('8: LIRI Bot', 'This project is a LIRI (Language Interpretation and Recognition Interface); a command line node app that takes in parameters and gives you back data.', 'liri-node-app', 'done');
 var project9 = new projectX('9: Advanced JavaScript Assignment: Constructor Word Guess', '', '', 'noInfo');
 var project10 = new projectX('10: Node.js & MySQL', '', '', 'noInfo');
 var project11 = new projectX('11: Friend Finder - Node and Express Servers', '', '', 'noInfo');
@@ -30,6 +26,8 @@ var project14 = new projectX('14: All the News That\'s Fit to Scrape', '', '', '
 var project15 = new projectX('15: Clicky Game', '', '', 'noInfo');
 var project16 = new projectX('16: NYT React Search', '', '', 'noInfo');
 var project17 = new projectX('17: Regionalized HW', '', '', 'noInfo');
+
+var project1a = new projectX('Project 1', 'FLIP.IMG - Superhero image matching game. Our web version of the popular memory card game where the objective is to collect the most pairs of cards.', 'project1', 'done');
 
 //      ARRAYS
 
