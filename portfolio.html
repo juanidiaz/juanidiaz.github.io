@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>iDiaz</title>
+
+    <!-- FAVICON -->
+    <link rel="icon" href="./static/idiaz_yellow-favicon.png">
+
+    <!-- STYLES -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Linking my own CSS -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style2.css">
+
+    <!-- -GOOGLE FONTS
+                <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900" rel="stylesheet">
+                <link href="https://fonts.googleapis.com/css?family=Rokkitt:300,800" rel="stylesheet">
+                <link href="https://fonts.googleapis.com/css?family=Caveat:400,700" rel="stylesheet"> -->
+
+    <!-- SCRIPTS -->
+    <!-- Link Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+    <!-- FONTS -->
+    <!-- Link Font Awesome 5 -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <!-- --------------------------------------------- -->
+    <!--    SECTION: NAV                               -->
+    <!-- --------------------------------------------- -->
+
+    <div class="container-fluid" id="header-container">
+
+        <div class="row" id="header-logo">
+            <div class="col-12" id="logo-container">
+                <img src="assets/images/logo_0_white.png" alt="Anthony Green Creative monogram">
+            </div>
+        </div>
+
+        <div class="row" id="top-nav-wrapper">
+            <div class="col">
+                <div class="row" id="top-nav-main">
+                    <div class="col-xs-12 col-md-8" id="top-nav-links">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- --------------------------------------------- -->
+    <!--    SECTION: Bio                               -->
+    <!-- --------------------------------------------- -->
+
+    <!-- <div class="container" id="bio">
+        <hr>
+        <div class="alert alert-secondary" role="alert">
+            <h1>Bio</h1>
+        </div>
+
+        <div class="icon">
+            <i class="fab fa-html5 fe"></i> HTML5 <br>
+            <i class="fab fa-css3-alt fe"></i> CSS3 <br>
+            <i class="fab fa-js-square fe"></i> JavaScript <br>
+
+            <i class="fab fa-npm be"></i> npm <br>
+            <i class="fab fa-node be"></i> node.js <br>
+            <i class="fas fa-database be"></i> database <br>
+            <i class="fas fa-cogs be"></i> cog wheels <br>
+        </div>
+
+    </div> -->
+
+    <!-- --------------------------------------------- -->
+    <!--    SECTION: Portfolio                         -->
+    <!-- --------------------------------------------- -->
+
+    <div class="container-fluid" id="portfolio">
+
+        <br>
+        <br>
+        <h1>Portfolio</h1>
+
+
+
+        <!--0----------------------------------------- -->
+        <div class="row justify-content-center">
+                <div class="col-10">
+                    <div
+                        class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative cards">
+    
+                        <div class="col-auto">
+                            <img src="./assets/images/thumb_eatdaburger.png" alt="Eat da Burger" class="thumbnail">
+                        </div>
+                        <div class="col p-4 left">
+                            <h3 class="mb-0">Property Pal</h3>
+                            <p class="card-text mb-auto">This <b>FULL STACK</b> project is a burger logger with MySQL,
+                                Node, Express, Handlebars and a homemade ORM. This application allow the user to create a
+                                burger with any name, this new burger will be shown on a list on the left side of the
+                                screen. Then the user can click on a button to "Devour" the burger, thus moving it to the
+                                right column.
+                            </p>
+                            <p>
+                                <i class="fab fa-html5 fe"> </i>
+                                <i class="fab fa-css3-alt fe"> </i>
+                                <i class="fab fa-js-square fe"> </i>
+                                <i class="fab fa-npm be"></i>
+                                <i class="fab fa-node be"></i>
+                                <i class="fas fa-database be"></i>
+                                <i class="fas fa-cogs be"></i>
+                            </p>
+                            <div class="right">
+                                <a href="https://idiaz-burger.herokuapp.com/" target="_blank"><button type="button"
+                                        class="ml-4 mt-4 btn btn-warning btn-sm">Open
+                                        live site</button></a>
+    
+                                <a href="https://github.com/juanidiaz/BurgerLogger" target="_blank"><button type="button"
+                                        class="ml-2 mt-4 btn btn-dark btn-sm ">Go
+                                        to GitHub repository</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!--1----------------------------------------- -->
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <div
+                    class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative cards">
+
+                    <div class="col p-4 right">
+                        <h3 class="mb-0">Rock-Paper-Scissors game</h3>
+                        <p class="card-text mb-auto">On-line version of the popular rock-paper-scissors game. In this
+                            version you will be able to just "watch" other people play or, if a spot is available, you
+                            can play the game against someone else.
+                        </p>
+                        <p>
+                            <i class="fab fa-html5 fe"> </i>
+                            <i class="fab fa-css3-alt fe"> </i>
+                            <i class="fab fa-js-square fe"> </i>
+                            <i class="fas fa-database be"> </i>
+                        </p>
+                        <div class="left">
+                            <a href="https://juanidiaz.github.io/RPS-Multiplayer/" target="_blank"><button type="button"
+                                    class="ml-4 mt-4 btn btn-warning btn-sm">Open live site</button></a>
+
+                            <a href="https://github.com/juanidiaz/RPS-Multiplayer" target="_blank"><button type="button"
+                                    class="ml-2 mt-4 btn btn-dark btn-sm ">Go to GitHub repository</button></a>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <img src="./assets/images/thumb_rps.png" alt="Rock Paper Scissors" class="thumbnail">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--2----------------------------------------- -->
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <div
+                    class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative cards">
+
+                    <div class="col-auto">
+                        <img src="./assets/images/thumb_eatdaburger.png" alt="Eat da Burger" class="thumbnail">
+                    </div>
+                    <div class="col p-4 left">
+                        <h3 class="mb-0">Burger Logger</h3>
+                        <p class="card-text mb-auto">This <b>FULL STACK</b> project is a burger logger with MySQL,
+                            Node, Express, Handlebars and a homemade ORM. This application allow the user to create a
+                            burger with any name, this new burger will be shown on a list on the left side of the
+                            screen. Then the user can click on a button to "Devour" the burger, thus moving it to the
+                            right column.
+                        </p>
+                        <p>
+                            <i class="fab fa-html5 fe"> </i>
+                            <i class="fab fa-css3-alt fe"> </i>
+                            <i class="fab fa-js-square fe"> </i>
+                            <i class="fab fa-npm be"></i>
+                            <i class="fab fa-node be"></i>
+                            <i class="fas fa-database be"></i>
+                            <i class="fas fa-cogs be"></i>
+                        </p>
+                        <div class="right">
+                            <a href="https://idiaz-burger.herokuapp.com/" target="_blank"><button type="button"
+                                    class="ml-4 mt-4 btn btn-warning btn-sm">Open
+                                    live site</button></a>
+
+                            <a href="https://github.com/juanidiaz/BurgerLogger" target="_blank"><button type="button"
+                                    class="ml-2 mt-4 btn btn-dark btn-sm ">Go
+                                    to GitHub repository</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--3----------------------------------------- -->
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <div
+                    class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative cards">
+
+                    <div class="col p-4 right">
+                        <h3 class="mb-0">Superhero image matching game</h3>
+                        <p class="card-text mb-auto">Our web version of the popular memory card game where the
+                            objective is to collect the most pairs of cards. This version will allow a player to play
+                            any of three modes: easy (just chose the number of pairs), timed (same as easy but with
+                            timed countdown) and challenge (a progressively difficult game). The player will also be
+                            able to log his/her game stats on a leader board using name and country.
+                            <p>
+                                <i class="fab fa-html5 fe"> </i>
+                                <i class="fab fa-css3-alt fe"> </i>
+                                <i class="fab fa-js-square fe"> </i>
+                            </p>
+                            <div class="left">
+                                <a href="https://juanidiaz.github.io/MemoryGame/" target="_blank"><button type="button"
+                                        class="ml-4 mt-4 btn btn-warning btn-sm">Open live site</button></a>
+
+                                <a href="https://github.com/juanidiaz/MemoryGame" target="_blank"><button type="button"
+                                        class="ml-2 mt-4 btn btn-dark btn-sm ">Go to GitHub repository</button></a>
+                            </div>
+                    </div>
+                    <div class="col-auto">
+                        <img src="./assets/images/thumb_flipimg.png" alt="Memory card game" class="thumbnail">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--4----------------------------------------- -->
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <div
+                    class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative cards">
+
+                    <div class="col-auto">
+                        <img src="./assets/images/thumb_triviagame.png" alt="Trivia game" class="thumbnail">
+                    </div>
+                    <div class="col p-4 left">
+                        <h3 class="mb-0">Trivia game</h3>
+                        <p class="card-text mb-auto">Trivia game using JavaScript for the logic and jQuery to
+                            manipulate HTML. The game uses objects with to handle all the questions and their possible
+                            answers. The process of the game is based on shuffling the questions array and its answers
+                            to minimize the chance for the user to get repeated questions through out a few games.
+                        </p>
+                        <p>
+                            <i class="fab fa-html5 fe"> </i>
+                            <i class="fab fa-css3-alt fe"> </i>
+                            <i class="fab fa-js-square fe"> </i>
+                        </p>
+                        <div class="right">
+                            <a href="https://juanidiaz.github.io/TriviaGame/" target="_blank"><button type="button"
+                                    class="ml-4 mt-4 btn btn-warning btn-sm">Open
+                                    live site</button></a>
+
+                            <a href="https://github.com/juanidiaz/TriviaGame" target="_blank"><button type="button"
+                                    class="ml-2 mt-4 btn btn-dark btn-sm ">Go
+                                    to GitHub repository</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--5----------------------------------------- -->
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <div
+                    class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative cards">
+
+                    <div class="col p-4 right">
+                        <h3 class="mb-0">Word guess game - The Simpson's<sup><i class="fas fa-trademark"
+                                    style='font-size:10px'></i></sup>
+                            themed</h3>
+                        <p class="card-text mb-auto">Enjoy this <b>The Simpson's </b>themed online version of the game
+                            "HANGMAN" where the usere has to guess a word based on certain clues. This project was done
+                            to test the knowledge of JavaScript and reafirm HTML/CSS structure and developent.
+                        </p>
+                        <p>
+                            <i class="fab fa-html5 fe"> </i>
+                            <i class="fab fa-css3-alt fe"> </i>
+                            <i class="fab fa-js-square fe"> </i>
+                            <i class="fas fa-database be"> </i>
+                        </p>
+                        <div class="left">
+                            <a href="https://juanidiaz.github.io/Word-Guess-Game/" target="_blank"><button type="button"
+                                    class="ml-4 mt-4 btn btn-warning btn-sm">Open live site</button></a>
+
+                            <a href="https://github.com/juanidiaz/Word-Guess-Game" target="_blank"><button type="button"
+                                    class="ml-2 mt-4 btn btn-dark btn-sm ">Go to GitHub repository</button></a>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <img src="./assets/images/thumb_hangman.png" alt="Word guess game" class="thumbnail">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--6----------------------------------------- -->
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <div
+                    class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative cards">
+
+                    <div class="col-auto">
+                        <img src="./assets/images/thumb_friendfinder.png" alt="Friend finder" class="thumbnail">
+                    </div>
+                    <div class="col p-4 left">
+                        <h3 class="mb-0">Friend Finder</h3>
+                        <p class="card-text mb-auto">This <b>FULL STACK</b> project is a compatibility-based
+                            "FriendFinder" application -- basically a dating app. The application will present a survey
+                            to the user; once the survey is filled in and submitted the back end will return the mest
+                            match from the current pool of friends. Then the front end (site) will display this friends
+                            name and image.
+                        </p>
+                        <p>
+                            <i class="fab fa-html5 fe"></i>
+                            <i class="fab fa-css3-alt fe"></i>
+                            <i class="fab fa-js-square fe"></i>
+
+                            <i class="fab fa-npm be"></i>
+                            <i class="fab fa-node be"></i>
+                            <i class="fas fa-database be"></i>
+                            <i class="fas fa-cogs be"></i>
+                        </p>
+                        <div class="right">
+                            <a href="https://idiaz-friendfinder.herokuapp.com/" target="_blank"><button type="button"
+                                    class="ml-4 mt-4 btn btn-warning btn-sm">Open
+                                    live site</button></a>
+
+                            <a href="https://github.com/juanidiaz/FriendFinder" target="_blank"><button type="button"
+                                    class="ml-2 mt-4 btn btn-dark btn-sm ">Go
+                                    to GitHub repository</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--7----------------------------------------- -->
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <div
+                    class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative cards">
+
+                    <div class="col p-4 right">
+                        <h3 class="mb-0">RPS - Star Wars<sup><i class="fas fa-trademark"
+                                    style='font-size:10px'></i></sup>
+                            themed</h3>
+                        <p class="card-text mb-auto">This is a Star Wars themed RPG (role playing game). Where The
+                            objective of the game is to pick a character and fight all others. You win if yo defeat all
+                            the other characters. This project was done to practice the use of objects and jQuery as
+                            basic tool to manage the logic of displaying diferent characters based on the user inputs.
+                        </p>
+                        <p>
+                            <i class="fab fa-html5 fe"> </i>
+                            <i class="fab fa-css3-alt fe"> </i>
+                            <i class="fab fa-js-square fe"> </i>
+                        </p>
+                        <div class="left">
+                            <a href="https://juanidiaz.github.io/RPG-StarWars/" target="_blank"><button type="button"
+                                    class="ml-4 mt-4 btn btn-warning btn-sm">Open live site</button></a>
+
+                            <a href="https://github.com/juanidiaz/RPG-StarWars" target="_blank"><button type="button"
+                                    class="ml-2 mt-4 btn btn-dark btn-sm ">Go to GitHub repository</button></a>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <img src="./assets/images/thumb_rpgstarwars.png" alt="RPG Star Wars" class="thumbnail">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--8----------------------------------------- -->
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <div
+                    class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative cards">
+
+                    <div class="col-auto">
+                        <img src="./assets/images/thumb_giphy.png" alt="Giphy" class="thumbnail">
+                    </div>
+                    <div class="col p-4 left">
+                        <h3 class="mb-0">GIF search engine - Disney<sup><i class="fas fa-trademark"
+                                    style='font-size:10px'></i></sup>
+                            themed</h3>
+                        <p class="card-text mb-auto">This is a dynamic web page that populates animated GIFs of your
+                            choice using the popular GIPHY API. This project uses API calls to GIPHY and modifies the
+                            DOM using JavaScript and jQuery.
+                        </p>
+                        <p>
+                            <i class="fab fa-html5 fe"> </i>
+                            <i class="fab fa-css3-alt fe"> </i>
+                            <i class="fab fa-js-square fe"> </i>
+                        </p>
+                        <div class="right">
+                            <a href="https://juanidiaz.github.io/giphy/" target="_blank"><button type="button"
+                                    class="ml-4 mt-4 btn btn-warning btn-sm">Open
+                                    live site</button></a>
+
+                            <a href="https://github.com/juanidiaz/giphy" target="_blank"><button type="button"
+                                    class="ml-2 mt-4 btn btn-dark btn-sm ">Go
+                                    to GitHub repository</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--9----------------------------------------- -->
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <div
+                    class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative cards">
+
+                    <div class="col p-4 right">
+                        <h3 class="mb-0">B-Amazon (MySQL)</h3>
+                        <p class="card-text mb-auto">This project is an Amazon-like storefront with the MySQL skills
+                            learned at class. The app takes in orders from customers and deplete stock from the store's
+                            inventory. As a bonus, you can track the inventory of the store, flaging the low-stocked
+                            items, add items or increase
+                        </p>
+                        <p>
+                            <i class="fab fa-npm be"></i>
+                            <i class="fab fa-node be"></i>
+                            <i class="fas fa-database be"></i>
+                            <i class="fas fa-cogs be"></i>
+                            <i class="fas fa-terminal be"></i>
+                        </p>
+                        <div class="left">
+                            <!-- <a href="https://juanidiaz.github.io/MySQL_bamazon/" target="_blank"><button type="button"
+                                    class="ml-4 mt-4 btn btn-warning btn-sm">Open live site</button></a> -->
+
+                            <a href="https://github.com/juanidiaz/MySQL_bamazon" target="_blank"><button type="button"
+                                    class="ml-2 mt-4 btn btn-dark btn-sm ">Go to GitHub repository</button></a>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <img src="./assets/images/thumb_bamazon.png" alt="MySQL_bamazon" class="thumbnail">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--10---------------------------------------- -->
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <div
+                    class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative cards">
+
+                    <div class="col-auto">
+                        <img src="./assets/images/thumb_liri.png" alt="LIRI node.js" class="thumbnail">
+                    </div>
+                    <div class="col p-4 left">
+                        <h3 class="mb-0">LIRI - Terminal application</h3>
+                        <p class="card-text mb-auto">This project is a command line application called LIRI (Language
+                            Interpretation and Recognition Interface). Is a very simple application that takes in
+                            parameters and gives you back data. Specifically the application will search for concert
+                            info for a band or artist; or information on a song or a movie. The project was made to
+                            excercise api calls using AXIOS and other NPM packagees.
+                        </p>
+                        <p>
+                            <i class="fab fa-npm be"></i>
+                            <i class="fab fa-node be"></i>
+                            <i class="fas fa-database be"></i>
+                            <i class="fas fa-cogs be"></i>
+                            <i class="fas fa-terminal be"></i>
+                        </p>
+                        <div class="right">
+                            <!-- <a href="https://juanidiaz.github.io/liri-node-app/" target="_blank"><button type="button"
+                                    class="ml-4 mt-4 btn btn-warning btn-sm">Open
+                                    live site</button></a> -->
+
+                            <a href="https://github.com/juanidiaz/liri-node-app" target="_blank"><button type="button"
+                                    class="ml-2 mt-4 btn btn-dark btn-sm ">Go
+                                    to GitHub repository</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- --------------------------------------------- -->
+    <!--    SECTION: Footer                            -->
+    <!-- --------------------------------------------- -->
+
+    <div class="row" id="universal-footer">
+        <div class="col-12 footer-content-top">
+            <div class="main-line">Copyright © 2008 <strong>JDI</strong>. All Rights Reserved.<br>
+                For more info check <i class="fab fa-github"></i> <a href="https://github.com/juanidiaz"
+                    style="color:rgb(0, 123, 255);" target="_none">github.com/juanidiaz</a>, <i
+                    class="fas fa-globe"></i> <a href="http://www.idiaz.ca" style="color:rgb(0, 123, 255);"
+                    target="_none">www.idiaz.ca</a> or reach <i class="fas fa-envelope-open"></i>
+                <a href="mailto:jdi@idiaz.ca" style="color:rgb(0, 123, 255);">jdi@idiaz.ca.</a></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
