@@ -62,16 +62,17 @@
                     <div class="col-xs-12 col-md-8" id="top-nav-links">
                         <ul class="nav">
                             <li class="nav-item">
-                                <a class="nav-link active" href="index.html">Home</a>
+                                <a class="nav-link" href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                                <a class="nav-link active" href="portfolio.html">Portfolio</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="contact.html">Contact</a>
                             </li>
                         </ul>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -79,81 +80,64 @@
     </div>
 
     <!-- --------------------------------------------- -->
-    <!--    SECTION: Bio                               -->
-    <!-- --------------------------------------------- -->
-
-    <!-- <div class="container" id="bio">
-        <hr>
-        <div class="alert alert-secondary" role="alert">
-            <h1>Bio</h1>
-        </div>
-
-        <div class="icon">
-            <i class="fab fa-html5 fe"></i> HTML5 <br>
-            <i class="fab fa-css3-alt fe"></i> CSS3 <br>
-            <i class="fab fa-js-square fe"></i> JavaScript <br>
-
-            <i class="fab fa-npm be"></i> npm <br>
-            <i class="fab fa-node be"></i> node.js <br>
-            <i class="fas fa-database be"></i> database <br>
-            <i class="fas fa-cogs be"></i> cog wheels <br>
-        </div>
-
-    </div> -->
-
-    <!-- --------------------------------------------- -->
     <!--    SECTION: Portfolio                         -->
     <!-- --------------------------------------------- -->
 
-    <div class="container-fluid" id="portfolio">
+    <div class="container-fluid" id="main-content-container">
 
-        <br>
-        <br>
-        <h1>Portfolio</h1>
+        <div class="row justify-content-end" id="h1-header">
+            <div class="col-10" id="h1-container">
+                <h1>Let me show you....</h1>
+            </div>
+        </div>
 
 
 
         <!--0----------------------------------------- -->
         <div class="row justify-content-center">
-                <div class="col-10">
-                    <div
-                        class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative cards">
-    
-                        <div class="col-auto">
-                            <img src="./assets/images/thumb_eatdaburger.png" alt="Eat da Burger" class="thumbnail">
-                        </div>
-                        <div class="col p-4 left">
-                            <h3 class="mb-0">Property Pal</h3>
-                            <p class="card-text mb-auto">This <b>FULL STACK</b> project is a burger logger with MySQL,
-                                Node, Express, Handlebars and a homemade ORM. This application allow the user to create a
-                                burger with any name, this new burger will be shown on a list on the left side of the
-                                screen. Then the user can click on a button to "Devour" the burger, thus moving it to the
-                                right column.
-                            </p>
-                            <p>
-                                <i class="fab fa-html5 fe"> </i>
-                                <i class="fab fa-css3-alt fe"> </i>
-                                <i class="fab fa-js-square fe"> </i>
-                                <i class="fab fa-npm be"></i>
-                                <i class="fab fa-node be"></i>
-                                <i class="fas fa-database be"></i>
-                                <i class="fas fa-cogs be"></i>
-                            </p>
-                            <div class="right">
-                                <a href="https://idiaz-burger.herokuapp.com/" target="_blank"><button type="button"
-                                        class="ml-4 mt-4 btn btn-warning btn-sm">Open
-                                        live site</button></a>
-    
-                                <a href="https://github.com/juanidiaz/BurgerLogger" target="_blank"><button type="button"
-                                        class="ml-2 mt-4 btn btn-dark btn-sm ">Go
-                                        to GitHub repository</button></a>
-                            </div>
+            <div class="col-10">
+                <div
+                    class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative cards">
+
+                    <div class="col-auto">
+                        <img src="./assets/images/PropertyPal.png" alt="Property Pal" class="thumbnail">
+                    </div>
+                    <div class="col p-4 left">
+                        <h3 class="mb-0">Property Pal</h3>
+                        <p class="card-text mb-auto">This project is a fully functional and fully mobile responsive site
+                            deployed in Heroku. The idea behind this site is to provide owners to post their properties
+                            in a place where potential buyers can look for them without the need of a third party
+                            (realtor).
+                        </p>
+                        <p>
+                            The project is based on node.js and express.js. The back end is backed by a MySQL Database
+                            and Sequelize as the ORM. The aplication has been deployed in Heroku using their JewsDB
+                            database application.
+                        </p>
+                        <p>
+                            <i class="fab fa-html5 fe"> </i>
+                            <i class="fab fa-css3-alt fe"> </i>
+                            <i class="fab fa-js-square fe"> </i>
+                            <i class="fab fa-npm be"></i>
+                            <i class="fab fa-node be"></i>
+                            <i class="fas fa-database be"></i>
+                            <i class="fas fa-cogs be"></i>
+                        </p>
+                        <div class="right">
+                            <a href="https://idiaz-propertypal.herokuapp.com/" target="_blank"><button type="button"
+                                    class="ml-4 mt-4 btn btn-warning btn-sm">Open
+                                    live site</button></a>
+
+                            <a href="https://github.com/juanidiaz/PropertyPal" target="_blank"><button type="button"
+                                    class="ml-2 mt-4 btn btn-dark btn-sm ">Go
+                                    to GitHub repository</button></a>
                         </div>
                     </div>
                 </div>
             </div>
-    
-            <!--1----------------------------------------- -->
+        </div>
+
+        <!--1----------------------------------------- -->
         <div class="row justify-content-center">
             <div class="col-10">
                 <div
@@ -477,7 +461,7 @@
         </div>
 
         <!--10---------------------------------------- -->
-        <div class="row justify-content-center">
+        <div class="row justify-content-center" id="last">
             <div class="col-10">
                 <div
                     class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative cards">
@@ -522,12 +506,11 @@
 
     <div class="row" id="universal-footer">
         <div class="col-12 footer-content-top">
-            <div class="main-line">Copyright © 2008 <strong>JDI</strong>. All Rights Reserved.<br>
-                For more info check <i class="fab fa-github"></i> <a href="https://github.com/juanidiaz"
-                    style="color:rgb(0, 123, 255);" target="_none">github.com/juanidiaz</a>, <i
-                    class="fas fa-globe"></i> <a href="http://www.idiaz.ca" style="color:rgb(0, 123, 255);"
-                    target="_none">www.idiaz.ca</a> or reach <i class="fas fa-envelope-open"></i>
-                <a href="mailto:jdi@idiaz.ca" style="color:rgb(0, 123, 255);">jdi@idiaz.ca.</a></div>
+            <div class="main-line">Copyright © 2008 <strong>JDI</strong><br>
+                <a href="https://github.com/juanidiaz" style="color:white;" target="_none"><i
+                        class="fab fa-github"></i></a>
+                <a href="http://www.idiaz.ca" style="color:white;" target="_none"><i class="fas fa-globe"></i></a>
+                <a href="mailto:jdi@idiaz.ca" style="color:white;"><i class="fas fa-envelope-open"></i></a></div>
         </div>
     </div>
 

@@ -72,15 +72,17 @@ body{
 }
 
 #h1-header {
-    max-width: 870px;
-    margin: auto;
+    /* max-width: 870px; */
+    /* margin: auto; */
+    margin-bottom: 40px;
     padding: 40px 5px 40px 5px;
     background: white;
-    border-bottom: 2px solid #666;
+    border-bottom: 2px solid rgb(247, 132, 0);
 }
 
 #h1-container {
-    margin: auto;
+    margin: unset;
+    margin-right: 20px;
 }
 
 h1 {   
@@ -90,6 +92,9 @@ h1 {
     color: rgb(10, 10, 10);
     padding: 0px;
     margin-bottom: 0px;
+}
+#last{
+    margin-bottom: 60px
 }
 
 .fe,
@@ -113,15 +118,34 @@ h1 {
     text-align: left;
 }
 
+#bio-image {
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin-right: 10px;
+}
+
+#contact-image {
+	/* float: left; */
+	width: 50%;
+	/* height: 200px; */
+	/* margin-right: 10px; */
+}
+
 #portfolio{
     margin-bottom: 55px;
 }
 
 #main-content {
-    max-width: 980px;
-    margin: auto; 
+    /* max-width: 980px; */
+    /* margin: auto;  */
+    /* margin-bottom: 100px; */
+    max-width: 870px;
+    margin: auto;
     margin-bottom: 100px;
-}
+    background-color: white;
+    padding: 20px;}
+
 
  
 #universal-footer {
