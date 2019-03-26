@@ -5,6 +5,6 @@
 
 This static homepage will take the user to the official [iDiaz.ca](http://www.idiaz.ca) web site.
 
-![Screenshot](./assets/images/logo_0_white.png)
+![Screenshot](./assets/images/logo_02.jpg)
 
 For questions, comments or ideas feel free to contact the developer @ <jdi@idiaz.ca>!
