@@ -1,2 +1,5 @@
-# juanidiaz.github.io
-Personal Site
+# idiaz.ca
+
+
+![Screenshot](./assets/images/logo_02_black.jpg)
+
